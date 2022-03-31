@@ -1,0 +1,14 @@
+---
+pagination:
+  data: lorem
+  size: 1
+  alias: p
+---
+
+<article>
+<h1>{{ p.title }}</h1>
+{% renderTemplate "liquid,md", p %}
+  ## {{ phrase }}
+  {{- content -}}
+{% endrenderTemplate %}
+</article>
