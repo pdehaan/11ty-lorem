@@ -3,7 +3,7 @@ const _random = require("lodash.random");
 
 const PAGE_COUNT = 20_000;
 
-module.exports = Array.from({ length: PAGE_COUNT }).map(() => fakeData());
+module.exports = Array.from({ length: PAGE_COUNT }, () => fakeData());
 
 function fakeData(pCount = _random(5, 12)) {
   return {
