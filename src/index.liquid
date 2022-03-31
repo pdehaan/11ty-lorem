@@ -6,9 +6,9 @@ pagination:
 ---
 
 <article>
-<h1>{{ p.title }}</h1>
+<h1>{{ title }}</h1>
 {% renderTemplate "liquid,md", p %}
-  ## {{ phrase }}
+  ## {{ phrase | capitalize }}
   {{- content -}}
 {% endrenderTemplate %}
 </article>
