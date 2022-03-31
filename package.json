@@ -1,19 +1,27 @@
 {
   "name": "11ty-lorem",
-  "version": "1.0.0",
   "description": "",
-  "main": ".eleventy.js",
-  "scripts": {
-    "build": "eleventy --quiet",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-lorem/issues"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@faker-js/faker": "^6.1.1",
     "del": "^6.0.0",
     "lodash.random": "^3.2.0"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-lorem#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": ".eleventy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-lorem.git"
+  },
+  "scripts": {
+    "build": "eleventy --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
